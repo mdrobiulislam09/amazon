@@ -1,0 +1,34 @@
+.card img{
+    border-radius: 8px;
+    margin: 5px 5px;
+    width: 286px;
+    height: 286px;
+}
+.card{
+    width: 296px;
+    height: 508px;
+    background-color: lightblue;
+    border-radius: 8px;
+    position: relative;
+}
+.card h6,h4,h5,p{
+    margin: 9px;
+}
+.order{
+    width: 296px;
+    border-radius:0 0 6px 6px;
+    text-align: center;
+    background-color: brown;
+    place-items: bottom;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.order h2{
+    margin-right: 5px;
+}
+.order:hover{
+    background-color: blue;
+}

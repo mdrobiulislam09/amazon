@@ -1,0 +1,18 @@
+.main{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.stick{
+    background-color: aquamarine;
+    position: fixed;
+    right: 20px;
+    height: 508px;
+    width: 296px;
+    border-radius: 10px;
+}
